@@ -55,7 +55,8 @@ const Products: FunctionComponent<ProductsProps> = () => {
                         Add product
                     </button>
         )}
-        <div className="row mt-3">
+        <div className="flex justify-center items-center h-screen">
+        <div className="row mt-3 sm-auto bg-gray-200 p-5 rounded-md">
 {products.length ? (
 products.map(
     (product: Product) =>
@@ -136,6 +137,7 @@ products.map(
                 <p>No products </p>
             )}
                 </div>
+                        </div>  
             </div>
             <AddProductModal
                 show={openAddModal}

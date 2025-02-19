@@ -9,6 +9,22 @@
     height: 200px !important;
 }
 
+
+    .image-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh; /* Adjust as needed */
+    }
+    
+    .image-container img {
+        width: 900px;
+        height: 500px;
+        object-fit: cover;
+    }
+    
+
+
 .notFound{
     height: 500px;
     width: 500px;

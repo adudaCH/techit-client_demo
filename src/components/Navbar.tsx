@@ -3,7 +3,7 @@ import { NavigateFunction, NavLink, useNavigate } from "react-router-dom";
 import { UserContext } from "../context/userContext";
 
 interface NavbarProps {}
-
+// TODO:show the Nav after changes
 const Navbar: FunctionComponent<NavbarProps> = () => {
     const navigate: NavigateFunction = useNavigate();
     const { user } = useContext(UserContext) || {};
