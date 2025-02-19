@@ -18,7 +18,14 @@
       "id": "e350",
       "name": "Harry Potter",
       "email": "harryp@gmail.com",
-      "password": "Aa12345678",
+      "password": "Aa123456",
+      "isAdmin": false
+    },
+    {
+      "id": "a739",
+      "name": "nut",
+      "email": "nut@gmail.com",
+      "password": "12345678",
       "isAdmin": false
     }
   ],
@@ -29,15 +36,17 @@
       "category": "Earphones & Headphones",
       "description": "The Microsoft new earphones with high quality",
       "image": "https://rukminim1.flixcart.com/image/416/416/k0flmkw0/headphone/u/2/h/queer-original-nokia-microsoft-wh-108-wired-headset-black-original-imafk8c6pjy2rhax.jpeg?q=70",
-      "id": "1"
+      "id": "1",
+      "available": true
     },
     {
-      "name": "Microsoft Headphones",
+      "name": "Microsoft Headphones 1",
       "price": 200,
       "category": "Earphones & Headphones",
       "description": "The Microsoft new earphones with high quality",
       "image": "https://m.media-amazon.com/images/I/712lRY36XYS.jpg",
-      "id": "2"
+      "id": "2",
+      "available": true
     },
     {
       "name": "Asus Vivobook",
@@ -45,7 +54,92 @@
       "category": "Laptops",
       "description": "Wondeful laptops",
       "image": "https://www.asus.com/media/Odin/Websites/global/Series/12.png",
-      "id": "3"
+      "id": "3",
+      "available": false
+    },
+    {
+      "id": "18aa",
+      "name": "XBOX",
+      "price": 5000,
+      "category": "Gameing",
+      "description": "bla bla bla bla",
+      "image": "https://cms-assets.xboxservices.com/assets/bc/40/bc40fdf3-85a6-4c36-af92-dca2d36fc7e5.png?n=642227_Hero-Gallery-0_A1_857x676.png",
+      "available": false
+    },
+    {
+      "id": "a496",
+      "name": "XBOX2",
+      "price": 4000,
+      "category": "Gameing",
+      "description": "bla bla bla bla",
+      "image": "https://cms-assets.xboxservices.com/assets/bc/40/bc40fdf3-85a6-4c36-af92-dca2d36fc7e5.png?n=642227_Hero-Gallery-0_A1_857x676.png",
+      "available": false
+    },
+    {
+      "id": "d36f",
+      "name": "XBOX",
+      "price": 2000,
+      "category": "Gaming",
+      "description": "bla bla bla bla",
+      "image": "https://cms-assets.xboxservices.com/assets/bc/40/bc40fdf3-85a6-4c36-af92-dca2d36fc7e5.png?n=642227_Hero-Gallery-0_A1_857x676.png",
+      "available": true
+    },
+    {
+      "id": "43f8",
+      "name": "XBOX4",
+      "price": 4000,
+      "category": "Gaming",
+      "description": "bla bla bla bla",
+      "image": "https://cms-assets.xboxservices.com/assets/bc/40/bc40fdf3-85a6-4c36-af92-dca2d36fc7e5.png?n=642227_Hero-Gallery-0_A1_857x676.png",
+      "available": false
+    },
+    {
+      "id": "caf8",
+      "name": "sony playstation",
+      "price": 5000,
+      "category": "Gaming",
+      "description": "Gaming console",
+      "image": "https://gmedia.playstation.com/is/image/SIEPDC/ps5-slim-disc-console-featured-hardware-image-block-02-en-15nov23?$1200px$",
+      "available": true
+    },
+    {
+      "id": "6d6d",
+      "name": "sony playstation remote",
+      "price": 50,
+      "category": "Gaming",
+      "description": "sony playstation remote",
+      "image": "https://gmedia.playstation.com/is/image/SIEPDC/dualsense-range-stacked-image-block-01-en-11feb22?$1200px$",
+      "available": true
+    }
+  ],
+  "carts": [
+    {
+      "id": "1",
+      "userId": 1,
+      "products": [
+        "1",
+        "1",
+        "6d6d",
+        "caf8",
+        "d36f"
+      ],
+      "active": true
+    },
+    {
+      "id": "2",
+      "userId": "e350",
+      "products": [
+        "caf8",
+        "d36f",
+        "6d6d"
+      ],
+      "active": true
+    },
+    {
+      "id": "9ce7",
+      "userId": "a739",
+      "Products": [],
+      "active": true
     }
   ]
 }

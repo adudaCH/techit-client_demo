@@ -20,7 +20,7 @@ return axios.put(`${api}/${product.id}`, product);
 }
 // delete product
 export function deleteProduct(id: string) {
-return axios.delete(`${api}/${id}`);
+return axios.patch(`${api}/${id}`, {available:false});
 }
 
 // export async function checkIfAdmin() {
@@ -38,3 +38,4 @@ return axios.delete(`${api}/${id}`);
 //     console.log(error);
 //     }
 // }
+

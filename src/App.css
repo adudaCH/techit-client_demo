@@ -4,8 +4,18 @@
     width: 70px !important;
 }
 
-.notFound{
-    width: 1000px;
-    margin-left: 170px;
-    margin-top: 10px;
+.productImage{
+    width: 250px !important;
+    height: 200px !important;
 }
+
+.notFound{
+    height: 500px;
+    width: 500px;
+    }
+
+    .ml{
+        margin-left: 20px;
+    }
+    .center{
+margin-left: 150px;    }
